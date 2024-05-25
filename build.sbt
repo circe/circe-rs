@@ -106,7 +106,7 @@ lazy val pattern = crossProject(JSPlatform, JVMPlatform)
       "io.circe" %%% "circe-generic" % circeVersion % Test,
       "io.circe" %%% "circe-testing" % circeVersion % Test,
       "org.scalatestplus" %%% "scalacheck-1-15" % "3.2.11.0" % Test,
-      "org.typelevel" %%% "discipline-scalatest" % "2.1.5" % Test
+      "org.typelevel" %%% "discipline-scalatest" % "2.3.0" % Test
     ),
     ghpagesNoJekyll := true,
     docMappingsApiDir := "api",
@@ -133,7 +133,7 @@ lazy val droste = crossProject(JVMPlatform)
       "io.higherkindness" %%% "droste-core" % drosteVersion,
       "io.higherkindness" %%% "droste-laws" % drosteVersion % Test,
       "org.scalatestplus" %%% "scalacheck-1-15" % "3.2.11.0" % Test,
-      "org.typelevel" %%% "discipline-scalatest" % "2.1.5" % Test
+      "org.typelevel" %%% "discipline-scalatest" % "2.3.0" % Test
     ),
     ghpagesNoJekyll := true,
     docMappingsApiDir := "api",
